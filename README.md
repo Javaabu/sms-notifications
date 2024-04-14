@@ -39,7 +39,7 @@ If you discover any security related issues, please email [info@javaabu.com](mai
 ## Credits
 
 - [Javaabu Pvt. Ltd.](https://github.com/javaabu)
-- [Arushad Ahmed (@dash8x)](http://arushad.org)
+- [Arushad Ahmed (@dash8x)](http://arushad.com)
 - [All Contributors](../../contributors)
 
 ## License
