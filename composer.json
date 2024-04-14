@@ -1,7 +1,7 @@
 {
-    "name": "javaabu/{your-package}",
-    "description": "{package description}",
-    "homepage": "https://github.com/Javaabu/{your-package}",
+    "name": "javaabu/sms-notifications",
+    "description": "Adds SMS notifications to Laravel projects with support for multiple providers.",
+    "homepage": "https://github.com/Javaabu/sms-notifications",
     "license": "MIT",
     "authors": [
         {
@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Javaabu\\{YourPackage}\\": "src/"
+            "Javaabu\\SmsNotifications\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Javaabu\\{YourPackage}\\Tests\\": "tests/"
+            "Javaabu\\SmsNotifications\\Tests\\": "tests/"
         }
     },
     "extra": {
@@ -33,7 +33,7 @@
         },
         "laravel": {
             "providers": [
-                "Javaabu\\{YourPackage}\\{YourPackage}ServiceProvider"
+                "Javaabu\\SmsNotifications\\SmsNotificationsServiceProvider"
             ]
         }
     },

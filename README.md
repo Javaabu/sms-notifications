@@ -1,28 +1,15 @@
-# {Your Package}
+# Sms Notifications
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/javaabu/{your-package}.svg?style=flat-square)](https://packagist.org/packages/javaabu/{your-package})
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/javaabu/sms-notifications.svg?style=flat-square)](https://packagist.org/packages/javaabu/sms-notifications)
 [![Test Status](../../actions/workflows/run-tests.yml/badge.svg)](../../actions/workflows/run-tests.yml)
-[![Quality Score](https://img.shields.io/scrutinizer/g/javaabu/{your-package}.svg?style=flat-square)](https://scrutinizer-ci.com/g/javaabu/{your-package})
-[![Total Downloads](https://img.shields.io/packagist/dt/javaabu/{your-package}.svg?style=flat-square)](https://packagist.org/packages/javaabu/{your-package})
+[![Quality Score](https://img.shields.io/scrutinizer/g/javaabu/sms-notifications.svg?style=flat-square)](https://scrutinizer-ci.com/g/javaabu/sms-notifications)
+[![Total Downloads](https://img.shields.io/packagist/dt/javaabu/sms-notifications.svg?style=flat-square)](https://packagist.org/packages/javaabu/sms-notifications)
 
-{package description}
-
-
-## Package setup instructions
-1. Search and replace the following:
-{your-package}
-{YourPackage}
-{Your Package}
-{package description}
-
-2. Rename {YourPackage}ServiceProvider.php
-
-3. Remove these instructions
-
+Adds SMS notifications to Laravel projects with support for multiple providers.
 
 ## Documentation
 
-You'll find the documentation on [https://docs.javaabu.com/docs/{your-package}](https://docs.javaabu.com/docs/{your-package}).
+You'll find the documentation on [https://docs.javaabu.com/docs/sms-notifications](https://docs.javaabu.com/docs/sms-notifications).
 
 Find yourself stuck using the package? Found a bug? Do you have general questions or suggestions for improving this package? Feel free to create an [issue](../../issues) on GitHub, we'll try to address it as soon as possible.
 

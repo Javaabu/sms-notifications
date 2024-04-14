@@ -1,5 +1,5 @@
 {
-    "name": "{Your Package}",
-    "description": "{package description}",
+    "name": "Sms Notifications",
+    "description": "Adds SMS notifications to Laravel projects with support for multiple providers.",
     "version": "1"
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace Javaabu\{YourPackage}\Tests\Unit;
+namespace Javaabu\SmsNotifications\Tests\Unit;
 
-use Javaabu\{YourPackage}\Tests\TestCase;
+use Javaabu\SmsNotifications\Tests\TestCase;
 
 class ExampleTest extends TestCase
 {
