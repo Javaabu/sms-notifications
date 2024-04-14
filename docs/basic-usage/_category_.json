@@ -1,0 +1,11 @@
+{
+    "position": 1.3,
+    "label": "Basic Usage",
+    "collapsible": true,
+    "collapsed": false,
+    "link": {
+        "type": "generated-index",
+        "slug": "/{your-package}/_categories/basic-usage",
+        "description": "Everything you need to know to get started!"
+    }
+}
