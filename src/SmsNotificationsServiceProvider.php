@@ -25,6 +25,6 @@ class SmsNotificationsServiceProvider extends ServiceProvider
     public function register()
     {
         // merge package config with user defined config
-        $this->mergeConfigFrom(__DIR__ . '/../config/sms.php', 'sms-notifications');
+        $this->mergeConfigFrom(__DIR__ . '/../config/sms.php', 'sms');
     }
 }

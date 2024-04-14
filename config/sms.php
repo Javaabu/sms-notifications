@@ -2,13 +2,27 @@
 
 return [
     /*
+     |--------------------------------------------------------------------------
+     | SMS Channels
+     |--------------------------------------------------------------------------
+     |
+     | Supported sms notification channels
+     |
+     */
+
+    'sms_channels' => [
+        'twilio' => \NotificationChannels\Twilio\TwilioChannel::class,
+        'dhiraagu' => \Dash8x\DhiraaguSmsNotification\DhiraaguSmsNotificationChannel::class,
+    ],
+
+    /*
     |--------------------------------------------------------------------------
-    | Some config option
+    | SMS Driver
     |--------------------------------------------------------------------------
     |
-    | Give a description of what each config option is like this
+    | Which SMS service provider to use. Supports: twilio, dhiraagu
     |
     */
 
-    // TODO
+    'sms_driver' => env('SMS_DRIVER', 'twilio'),
 ];

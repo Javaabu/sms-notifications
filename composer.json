@@ -37,6 +37,10 @@
             ]
         }
     },
+    "suggest": {
+        "laravel-notification-channels/twilio": "Required to use twilio sms driver",
+        "dash8x/dhiraagu-sms-notification": "Required to use dhiraagu sms driver"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
