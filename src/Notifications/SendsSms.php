@@ -7,7 +7,6 @@ namespace Javaabu\SmsNotifications\Notifications;
 
 trait SendsSms
 {
-
     /**
      * Get the sms driver
      *
@@ -26,6 +25,7 @@ trait SendsSms
     public function getSmsChannel(): string
     {
         $sms_driver = $this->getSmsDriver();
+
         return config('sms.channels.'.$sms_driver);
     }
 
