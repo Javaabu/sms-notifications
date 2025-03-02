@@ -3,6 +3,7 @@
 namespace Javaabu\SmsNotifications\Tests\Feature;
 
 use Dash8x\DhiraaguSmsNotification\DhiraaguSmsNotificationChannel;
+use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Notifications\Notification as BaseNotification;
 use Illuminate\Support\Facades\Notification;
@@ -11,7 +12,6 @@ use Javaabu\SmsNotifications\Notifiable\SmsNotifiable;
 use Javaabu\SmsNotifications\Notifications\SendsSms;
 use Javaabu\SmsNotifications\Notifications\SmsNotification;
 use Javaabu\SmsNotifications\Tests\TestCase;
-use Illuminate\Foundation\Auth\User as Authenticatable;
 use NotificationChannels\Twilio\TwilioChannel;
 
 class User extends Authenticatable implements SmsNotifiable
@@ -39,7 +39,7 @@ class TestNotification extends BaseNotification implements SmsNotification
     public function via($notifiable)
     {
         return [
-            $this->getSmsChannel()
+            $this->getSmsChannel(),
         ];
     }
 

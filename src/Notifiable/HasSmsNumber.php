@@ -7,7 +7,6 @@ namespace Javaabu\SmsNotifications\Notifiable;
 
 trait HasSmsNumber
 {
-
     /**
      * The number to send SMSs to
      */

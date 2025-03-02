@@ -2,12 +2,11 @@
 
 namespace Javaabu\SmsNotifications\Tests;
 
-use Orchestra\Testbench\TestCase as BaseTestCase;
 use Javaabu\SmsNotifications\SmsNotificationsServiceProvider;
+use Orchestra\Testbench\TestCase as BaseTestCase;
 
 abstract class TestCase extends BaseTestCase
 {
-
     public function setUp(): void
     {
         parent::setUp();
