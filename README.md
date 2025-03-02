@@ -2,7 +2,6 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/javaabu/sms-notifications.svg?style=flat-square)](https://packagist.org/packages/javaabu/sms-notifications)
 [![Test Status](../../actions/workflows/run-tests.yml/badge.svg)](../../actions/workflows/run-tests.yml)
-[![Code Style Status](../../actions/workflows/php-cs-fixer.yml/badge.svg)](../../actions/workflows/php-cs-fixer.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/javaabu/sms-notifications.svg?style=flat-square)](https://packagist.org/packages/javaabu/sms-notifications)
 
 Adds SMS notifications to Laravel projects with support for multiple providers.
