@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Methods that sms notifications should have
  */
