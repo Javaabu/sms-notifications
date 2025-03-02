@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The contract for sms notifiables
  */
