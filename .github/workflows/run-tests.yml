@@ -31,11 +31,11 @@ jobs:
                     -   laravel: 10.*
                         testbench: 8.*
                         carbon: ^2.63
-                        twilio: ^4.0.0
+                        twilio: ^3.4
                     -   laravel: 9.*
                         testbench: 7.*
                         carbon: ^2.63
-                        twilio: ^4.0.0
+                        twilio: ^3.4
                 exclude:
                     -   laravel: 12.*
                         php: 8.1
