@@ -59,8 +59,7 @@ class SmsNotificationTest extends TestCase
 
     }
 
-    /** @test */
-    public function it_can_send_an_sms_notification(): void
+    public function test_it_can_send_an_sms_notification(): void
     {
         $user = new User();
 
@@ -71,8 +70,7 @@ class SmsNotificationTest extends TestCase
         Notification::assertSentTo([$user], TestNotification::class);
     }
 
-    /** @test */
-    public function it_can_send_an_sms_via_twilio(): void
+    public function test_it_can_send_an_sms_via_twilio(): void
     {
         $this->app['config']->set('sms.default', 'twilio');
 
@@ -87,8 +85,7 @@ class SmsNotificationTest extends TestCase
         });
     }
 
-    /** @test */
-    public function it_can_send_an_sms_via_dhiraagu(): void
+    public function test_it_can_send_an_sms_via_dhiraagu(): void
     {
         $this->app['config']->set('sms.default', 'dhiraagu');
 
