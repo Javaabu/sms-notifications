@@ -37,13 +37,6 @@
             ]
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/Javaabu/twilio.git",
-            "canonical": false
-        }
-    ],
     "suggest": {
         "laravel-notification-channels/twilio": "Required to use twilio sms driver",
         "dash8x/dhiraagu-sms-notification": "Required to use dhiraagu sms driver"
