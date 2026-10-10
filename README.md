@@ -8,7 +8,7 @@ Adds SMS notifications to Laravel projects with support for multiple providers.
 
 ## Documentation
 
-You'll find the documentation on [https://docs.javaabu.com/docs/sms-notifications](https://docs.javaabu.com/docs/sms-notifications).
+You'll find the documentation on [https://docs.javaabu.com/sms-notifications](https://docs.javaabu.com/sms-notifications).
 
 Find yourself stuck using the package? Found a bug? Do you have general questions or suggestions for improving this package? Feel free to create an [issue](../../issues) on GitHub, we'll try to address it as soon as possible.
 
